@@ -16,7 +16,6 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -283,3 +282,15 @@ img {
   gap: 10px; 
 }
 
+
+.button_1{ 
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+  border: 0;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+.button:focus {
+    outline: 3px solid darkblue;
+} 
