@@ -11,8 +11,9 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
 html {
-  color: #222;
+  color: rgb(221, 27, 27);
   font-size: 1em;
   line-height: 1.4;
 }
@@ -195,7 +196,7 @@ textarea {
   *,
   *::before,
   *::after {
-    background: #fff !important;
+    background: #fffdf7 !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
@@ -260,37 +261,12 @@ textarea {
   }
 }
 
-
-.preamble p{
-  display: none;
-  display: inline;
-  display: inline-block;
-  display: block;
-}
-/* Make sure to hover in inspect to make sure that red padding does not overlap the next padding and is next to the next red padding */
-
-/* Stacked top on bottom use block if you want to stack side by side use inline or inline block */
-
-
-img {
-  width: 100%;
-  
+body {
+  background-color: #f3eacf;
 }
 
-.necho-demo-row{
-  display: flex;
-  gap: 10px; 
+h1 {
+  color: red;
 }
-
-
-.button_1{ 
-  border-radius: 50px;
-  color: white;
-  background-color: blue;
-  border: 0;
-  font-size: 18px;
-  padding: 8px 16px;
+.container{ align-content: center;
 }
-.button:focus {
-    outline: 3px solid darkblue;
-} 
