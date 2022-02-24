@@ -10,22 +10,18 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+ 
+  
 
 html {
-  color: rgb(221, 27, 27);
+  color: rgba(172, 172, 172, 0.952);
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+h2{ 
+  font-size: x-large;
+}
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -45,7 +41,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(124, 124, 124);
   margin: 1em 0;
   padding: 0;
 }
@@ -74,7 +70,10 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -196,7 +195,7 @@ textarea {
   *,
   *::before,
   *::after {
-    background: #fffdf7 !important;
+    background: #272623 !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
@@ -262,11 +261,62 @@ textarea {
 }
 
 body {
-  background-color: #f3eacf;
+  background-color: #160b07;
 }
 
 h1 {
-  color: red;
+  text-size-adjust: 10em;
+  color: rgb(156, 3, 3);
+  text-align: center;
+  border: 1px solid whitesmoke;
+  gap: 10px ;
 }
-.container{ align-content: center;
+
+.preamble p {
+  display: block;
+}
+
+.upincoming { 
+  padding: 140px;
+  justify-content: space-around;
+  border: 1px solid whitesmoke;
+  font-size: 2em;
+}
+head {
+  background-color: rgb(43, 43, 43);
+}
+.tickets { 
+  padding: 140px;
+  gap: 20px;
+  border: 1px solid white;
+  font-size: 2em;
+}
+.my_band_logo {
+  width: min-content;
+  padding-top: 50px;
+  gap: 20px;
+  align-items: flex-end;
+  font-size: 1.2em;
+}
+.link_bands { 
+  flex: auto;
+}
+img {
+  align-items: center;
+  width: 100%;
+}
+.discription {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+li {
+  color: rgb(140, 255, 255);
+}
+h3 {
+  color: rgb(140, 255, 255);
+}
+h1 {
+  font-size: 4em;
 }
